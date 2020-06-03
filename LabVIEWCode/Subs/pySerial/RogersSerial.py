@@ -26,6 +26,7 @@ def WriteSerial(text):
 def ReadSerial(len):
     global ser
     return str(ser.read(len))
+    #return ser.read(len).decode("utf=8")
 
 def CloseSerial():
     global ser

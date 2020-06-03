@@ -13,13 +13,6 @@
 		<Item Name="LabVIEWCode" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Init_serial.vi" Type="VI" URL="../Subs/pySerial/Init_serial.vi"/>
-		<Item Name="Melissa.vi" Type="VI" URL="../Servers/Melissa.vi"/>
-		<Item Name="Serial_Any.vi" Type="VI" URL="../Subs/pySerial/Serial_Any.vi"/>
-		<Item Name="Serial_Close.vi" Type="VI" URL="../Subs/pySerial/Serial_Close.vi"/>
-		<Item Name="Serial_Read.vi" Type="VI" URL="../Subs/pySerial/Serial_Read.vi"/>
-		<Item Name="Serial_Write.vi" Type="VI" URL="../Subs/pySerial/Serial_Write.vi"/>
-		<Item Name="Serial_WriteLines.vi" Type="VI" URL="../Subs/pySerial/Serial_WriteLines.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

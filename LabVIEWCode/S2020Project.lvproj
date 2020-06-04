@@ -13,8 +13,6 @@
 		<Item Name="LabVIEWCode" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="BuildTree.vi" Type="VI" URL="/Applications/National Instruments/LabVIEW 2018 64-bit/user.lib/MicroPython/VIs/BuildTree.vi"/>
-		<Item Name="IDE_Folder_Example.vi" Type="VI" URL="../IDE_Folder_Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>

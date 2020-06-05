@@ -29,6 +29,7 @@ def CloseSSH():
     return('done')
 
 def WriteSSH(string):
+    global gSSHRef, gchannel,scp
     reply = 'no reference'
     if gSSHRef != None:
         reply = 'no file'
@@ -38,6 +39,7 @@ def WriteSSH(string):
     return reply
 
 def ReadSSH():
+    global gSSHRef, gchannel,scp
     reply = 'no reference'
     if gSSHRef != None:
         reply = 'no file'
@@ -49,15 +51,16 @@ def ReadSSH():
     return(reply)
 
 def WriteWaitReadSSH(string,char,timeout=10000):
-     reply = ''
+     global gSSHRef, gchannel,scp
+     reply = ReadSSH()
      WriteSSH(string)
      n = int(timeout/10)
      for i in range(n):
          ans = ReadSSH()
-         if ans.find(char) >= 0:
-             print(ans)
-             return reply + ans
          reply = reply + ans
+         if ans.find(char) >= 0:
+             #print(ans)
+             return reply
          time.sleep(0.01)
      return reply
 

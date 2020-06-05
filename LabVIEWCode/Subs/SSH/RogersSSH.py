@@ -49,15 +49,15 @@ def ReadSSH():
     return(reply)
 
 def WriteWaitReadSSH(string,char,timeout=10000):
-     reply = ''
+     reply = ReadSSH()
      WriteSSH(string)
      n = int(timeout/10)
      for i in range(n):
          ans = ReadSSH()
-         if ans.find(char) >= 0:
-             print(ans)
-             return reply + ans
          reply = reply + ans
+         if ans.find(char) >= 0:
+             #print(ans)
+             return reply
          time.sleep(0.01)
      return reply
 

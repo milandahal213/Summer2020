@@ -10,15 +10,63 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="LabVIEW_Python" Type="Folder" URL="../../../../Dropbox (Rogers)/Documents/Python Codes/LabVIEW_Python">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="LabVIEWCode" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+<<<<<<< HEAD
 		<Item Name="IDE_msg_Example_new.vi" Type="VI" URL="../../MilanTest/IDE_msg_Example_new.vi"/>
 		<Item Name="magic.vi" Type="VI" URL="../../MilanTest/magic.vi"/>
+=======
+		<Item Name="PythonCode" Type="Folder" URL="../../PythonCode">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+>>>>>>> upstream/master
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="BuildWiFiPython.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/BuildWiFiPython.vi"/>
+				<Item Name="CameraSetup.ctl" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CameraSetup.ctl"/>
+				<Item Name="CameraSetup.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CameraSetup.vi"/>
+				<Item Name="CheckReplace.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CheckReplace.vi"/>
+				<Item Name="CloseHS.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/CloseHS.vi"/>
+				<Item Name="ConvertImageToJpg.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertImageToJpg.vi"/>
+				<Item Name="ConvertSize.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertSize.vi"/>
+				<Item Name="ConvertToLAB.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertToLAB.vi"/>
+				<Item Name="convertToTF.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/convertToTF.vi"/>
+				<Item Name="ConvertToU8.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ConvertToU8.vi"/>
+				<Item Name="DestinationCode.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/DestinationCode.vi"/>
+				<Item Name="EndScript.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/EndScript.vi"/>
+				<Item Name="FB_Enable.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/FB_Enable.vi"/>
+				<Item Name="FindROIstring.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/FindROIstring.vi"/>
+				<Item Name="GenerateLab.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/GenerateLab.vi"/>
+				<Item Name="HighSpeedInit.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/HighSpeedInit.vi"/>
+				<Item Name="KeyboardCalls.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/KeyboardCalls.vi"/>
+				<Item Name="OMV_Python.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/OMV_Python.vi"/>
+				<Item Name="OMV_UploadMainPY.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OMV_UploadMainPY.vi"/>
+				<Item Name="OMV_WriteToUART.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OMV_WriteToUART.vi"/>
+				<Item Name="OpenMV_SelectLab.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OpenMV_SelectLab.vi"/>
+				<Item Name="OpenMV_SelectROI.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/OpenMV_SelectROI.vi"/>
+				<Item Name="QRCodes.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/QRCodes.vi"/>
+				<Item Name="ReadOpenMVImage.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadOpenMVImage.vi"/>
+				<Item Name="ReadREPL.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadREPL.vi"/>
+				<Item Name="ReadTxBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadTxBuffer.vi"/>
+				<Item Name="ROIText.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ROIText.vi"/>
+				<Item Name="RunScript.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/RunScript.vi"/>
+				<Item Name="Select.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/Select.vi"/>
+				<Item Name="SensorOperation.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/SensorOperation.vi"/>
+				<Item Name="SettingsText.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/SettingsText.vi"/>
+				<Item Name="simpleStatistics.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/simpleStatistics.vi"/>
+				<Item Name="StringToArray.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/StringToArray.vi"/>
+				<Item Name="trackBlobs.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/trackBlobs.vi"/>
+				<Item Name="trackFaces.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Behaviors/trackFaces.vi"/>
+				<Item Name="WriteHSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/WriteHSpeed.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="CFReleaseString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFString.llb/CFReleaseString.vi"/>
 				<Item Name="CFReleaseURL.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/CFReleaseURL.vi"/>
@@ -39,6 +87,8 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -48,6 +98,8 @@
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -57,10 +109,12 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -91,6 +145,7 @@
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
@@ -105,6 +160,7 @@
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -114,6 +170,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>

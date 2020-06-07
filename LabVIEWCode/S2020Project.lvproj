@@ -19,14 +19,8 @@
 		<Item Name="PythonCode" Type="Folder" URL="../../PythonCode">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="junk.vi" Type="VI" URL="../../../../Desktop/junk.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="AddManyToQueue.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/AddManyToQueue.vi"/>
-				<Item Name="Arduino_Close.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Arduino/VIs/_subVI/Arduino_Close.vi"/>
-				<Item Name="Arduino_Compile.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Arduino/VIs/_subVI/Arduino_Compile.vi"/>
-				<Item Name="Arduino_Upload.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Arduino/VIs/_subVI/Arduino_Upload.vi"/>
-				<Item Name="AskVersion.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/AskVersion.vi"/>
 				<Item Name="BuildWiFiPython.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/BuildWiFiPython.vi"/>
 				<Item Name="CameraSetup.ctl" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CameraSetup.ctl"/>
 				<Item Name="CameraSetup.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/CameraSetup.vi"/>
@@ -53,7 +47,6 @@
 				<Item Name="ReadOpenMVImage.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadOpenMVImage.vi"/>
 				<Item Name="ReadREPL.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadREPL.vi"/>
 				<Item Name="ReadTxBuffer.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ReadTxBuffer.vi"/>
-				<Item Name="REPL_Clean.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/REPL_Clean.vi"/>
 				<Item Name="ROIText.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/ROIText.vi"/>
 				<Item Name="RunScript.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/Advanced/RunScript.vi"/>
 				<Item Name="Select.vi" Type="VI" URL="/&lt;userlib&gt;/MicroPython/Processors/OpenMV/VIs/_subs/Select.vi"/>
